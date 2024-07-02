@@ -1,0 +1,80 @@
+:root{
+    --primary-text: rgb(3, 53, 102);
+}
+
+body{
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+main{
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid var(--primary-text);
+    border-radius: 10px;
+}
+
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--primary-text);
+    font-size: 22px;
+}
+
+h1, h1 span{
+    font-size: 30px;
+}
+
+#date-time p, #contact p{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#date-time span, #contact span{
+    font-weight: normal;
+}
+
+.profile{
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+}
+
+.center{
+    text-align: center;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+.topic{
+    background-color: var(--primary-text);
+    color: white;
+    font-size: 45px;
+}
+
+ol{
+    max-width: 800px;
+    margin: auto;
+}
+
+li{
+    margin: 20px 0;
+}
+
+@media (max-width: 600px){
+    *{
+        font-size: 18px;
+    }
+    h1, h1 span{
+        font-size: 26px;
+    }
+    .topic{
+        font-size: 35px;
+    }
+    ol{
+        padding-left: 20px;
+    }
+}
